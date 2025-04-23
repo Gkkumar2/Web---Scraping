@@ -45,7 +45,7 @@ lxml
 ```
 ## 🚀 How to Run the Scripts
 1️⃣ Patpat.lk Scraper
-File: patpat_scraper.py
+- File: patpat.py
 
 Output: patpat_car_data_all_pages.csv
 
@@ -58,69 +58,62 @@ Scrapes up to MAX_PAGES of vehicle listings and extracts:
 
 Run command:
 ```bash
-python patpat_scraper.py
+python patpat.py
 ```
+
 2️⃣ Autome.lk Scraper
-File: autome_scraper.py
+- File: autome.py
 
 Output: autome_car_listings.csv
 
 Scrapes listings using dynamic scrolling and extracts:
 
-Name
-
-Price
-
-Location
-
-Date Posted
-
-Link
+- Name
+- Price
+- Location
+- Date Posted
+- Link
 
 Run command:
 
-bash
-Copy
-Edit
-python autome_scraper.py
+```bash
+python autome.py
+```
+
 3️⃣ Hitad.lk Scraper
-File: hitad_scraper.py
+- File: hitad_scraper.py
 
 Output: hitad_vehicles_data.csv
 
 Scrapes vehicle classifieds and extracts:
 
-Title
-
-Price
-
-Location
-
-Date Posted
-
-Link
+- Title
+- Price
+- Location
+- Date Posted
+- Link
 
 Run command:
 
-bash
-Copy
-Edit
-python hitad_scraper.py
-💡 Use Cases
-🔍 Price comparison across multiple marketplaces
+```bash
+python hitad.py
+```
 
-📊 Market analysis and tracking trends in Sri Lankan vehicle pricing
+### 💡 Use Cases
+- 🔍 Price comparison across multiple marketplaces
 
-📂 Automated data collection for dealerships and aggregators
+- 📊 Market analysis and tracking trends in Sri Lankan vehicle pricing
 
-🧠 Machine learning datasets for vehicle price prediction or recommendation models
+- 📂 Automated data collection for dealerships and aggregators
 
-⚠️ Notes
-All scrapers use headless Chrome for background operation.
+- 🧠 Machine learning datasets for vehicle price prediction or recommendation models
 
-ChromeDriver is auto-managed via webdriver-manager.
+### ⚠️ Notes
+- All scrapers use headless Chrome for background operation.
 
-If the website layout changes, you may need to update the HTML selectors.
+- ChromeDriver is auto-managed via webdriver-manager.
 
-You can control how many pages are scraped using the MAX_PAGES variable in each script.
+- If the website layout changes, you may need to update the HTML selectors.
+
+- You can control how many pages are scraped using the MAX_PAGES variable in each script.
 
