@@ -54,9 +54,9 @@ Scrapes up to MAX_PAGES of vehicle listings and extracts:
 - Title
 - Price
 - Date Posted
--Link
-Run command:
+- Link
 
+Run command:
 ```bash
 python patpat_scraper.py
 ```
